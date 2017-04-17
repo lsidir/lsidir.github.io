@@ -1,0 +1,114 @@
+
+* { 
+	margin: 0; 
+	padding: 0;
+}
+
+html, 
+body { 
+	height: 100%;
+}
+
+body { 
+    background-color: #fff;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    color: #6e7d9e;
+}
+
+::selection {
+    background-color: #AF5010;
+    color: #fbf8e5;
+}
+
+header {
+    /*font-size: x-large;
+    font-weight: bolder;*/
+    background-color: #1E3C78;
+    color: #fff;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px 10px;
+}
+
+figure {
+    vertical-align: middle;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#name {
+    font-weight: bold;
+    font-size: large;
+    color: #fff;
+}
+
+nav {
+    background-color: #1E3C78;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 5px 0px;
+}
+
+header h1 {
+    color: #AF5010;
+    letter-spacing: 0px;
+}
+
+a {
+    color: #6e7d9e;
+}
+a:link {
+    text-decoration: none;
+}
+
+nav > a::before {
+    content: "\002329";
+    color: #fff;
+    /*color: #F9C989;*/
+}
+
+nav > a::after  {
+    content: "\00232A";
+    color: #fff;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:active, #address:hover, #phone:hover, #email:hover {
+    color: #AF5010;
+}
+
+a:active {
+    color: #AF5010;
+}
+
+section {
+    align: center;
+    width: 1000px;
+}
+
+
+article.recipe > h3 {
+    color: #AF5010;
+}
+article.recipe > li {
+
+}
+
+footer {
+    background-color: #A5B7C5;
+    font-size: x-small;
+    font-style: italic;
+    margin: 0px 0px;
+    padding: 5px 10px;
+}
+
