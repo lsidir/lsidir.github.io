@@ -12,31 +12,38 @@
     <body>
         <!-- begin header -->
         <header>
-			<div class="w3-content" style="max-width:800px" >
-				<figure style="display:inline-block; vertical-align:middle;">
-					<img src="lefteris.jpg" alt="Lefteris Sidirourgos - Λευτέρης Σιδηρουργός">
-				</figure>
-				<div style="display:inline-block; vertical-align:middle; text-align:left; padding:10px;">
-					<div id=name>Lefteris Sidirourgos</div>
-					<div id=name>Λευτέρης Σιδηρουργός</div>
-					<div id=affiliation>PostDoc Researcher</div>
-					<div id=affiliation>Systems Group, Dept of Computer Science</div>
-					<div id=affiliation>ETH Zürich</div>
+			<div class="w3-content w3-display-container" style="max-width:800px" >
+				<div class="w3-display-left" style="display:inline-block;">
+					<figure style="display:inline-block; vertical-align:middle;">
+						<img class="w3-round" src="lefteris.jpg" alt="Lefteris Sidirourgos - Λευτέρης Σιδηρουργός">
+					</figure>
+					<div style="display:inline-block; vertical-align:middle; text-align:left; padding:10px;">
+						<div id=name>Lefteris Sidirourgos</div>
+						<div id=name>Λευτέρης Σιδηρουργός</div>
+						<div id=affiliation>PostDoc Researcher</div>
+						<div id=affiliation>Systems Group, Dept of Computer Science</div>
+						<div id=affiliation>ETH Zürich</div>
+					</div>
 				</div>
-				<figure style="display:inline-block; vertical-align:middle;">
-					<img src="systems-logo.png" alt="eth-systems">
-				</figure>
-			<div>
+				<div >
+					<figure style="display:inline-block; vertical-align:middle;">
+						<img src="systems-logo.png" alt="eth-systems">
+					</figure>
+				</div>
+			</div>
         </header>
         <!-- end header -->
         <nav>
-            <a href="#research">research</a>
-            <a href="#publications">publications</a>
-            <a href="#bio">bio</a>
-            <!--a href="#bio_gr">βιογραφικό</a-->
-            <a href="#talks">talks</a>
-            <a href="#service">service</a>
-            <a href="#contact">contact</a>           
+			<div class="w3-content" style="max-width:800px">
+				<div style="display:flex; justify-content:space-around;">
+					<a href="#research">research</a>
+					<a href="#publications">publications</a>
+					<a href="#bio">bio</a>
+					<a href="#talks">talks</a>
+					<a href="#service">service</a>
+					<a href="#contact">contact</a>
+				</div>
+			</div>
         </nav>
         <main class="w3-content" style="max-width:800px" >
             <section id=intro>
@@ -69,7 +76,7 @@
 			<h1> Bio </h1>
 				<p><a href="cv/sidirourgos_cv.pdf" target="_blank" download>Curriculum Vitae</a></p>
 				<p><a href="cv/sidirourgos_cv_gr.pdf" target="_blank" download>Βιογραφικό</a> </p>
-				<p style="text-align:left">
+				<p>
 					Lefteris Sidirourgos is a postdoctoral researcher at the Systems Group of ETH Zürich. Before that, he was a postdoctoral
 					researcher at the Database Architectures Group of CWI in Amsterdam. He received his Ph.D. in Computer Science from the
 					University of Amsterdam. He also holds a M.Sc. in Computer Science and a B.Sc in Mathematics from University of Crete, Greece.
@@ -82,7 +89,7 @@
 			<!-- begin talks-->
 			<section id=talks>
 			<h1>Invited Talks</h1>
-			<h2>11.2016 Systems Group @ ETH Zürich</h2>
+			<h2>11.2016 Systems Group, ETH Zürich</h2>
 			<h3>A Nexus of Indexes</h3>
 			<h4>Abstract</h4>
 			<p>
@@ -190,6 +197,7 @@
 				scientific data exploration, their multi-layer design, and their adaptiveness
 				to shifting query workload.
 			</p>
+			<a href="#">back to top</a>
 			<!-- end talks-->
 
 			</section>
