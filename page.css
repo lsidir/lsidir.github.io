@@ -1,33 +1,38 @@
-
-* { 
-	margin: 0; 
-	padding: 0;
-}
-
-html, 
-body { 
-	height: 100%;
-}
-
-body { 
+body {
     background-color: #fff;
     color: #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1 {
+font-weight: bolder;
+}
+
 h1, h2 {
-    color: #6e7d9e;
+    color: #6e7d9e; /* blue-ish */
+}
+
+hr {
+	color: #6e7d9e; /* blue-ish */
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
 }
 
 ::selection {
-    background-color: #AF5010;
-    color: #fbf8e5;
+    background-color: #af5010; /* yellow-ish */
+    color: #fbf8e5;            /* red-ish    */
 }
 
 header {
     /*font-size: x-large;
     font-weight: bolder;*/
-    background-color: #1E3C78;
+    background-color: #1E3C78; /* blue       */
     color: #fff;
     text-align: center;
     margin: 0px 0px;
@@ -64,6 +69,7 @@ header h1 {
 a {
     color: #6e7d9e;
 }
+
 a:link {
     text-decoration: none;
 }
@@ -93,16 +99,8 @@ a:active {
 
 section {
     align: center;
-    width: 1000px;
 }
 
-
-article.recipe > h3 {
-    color: #AF5010;
-}
-article.recipe > li {
-
-}
 
 footer {
     background-color: #A5B7C5;
