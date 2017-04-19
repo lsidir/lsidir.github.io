@@ -45,6 +45,11 @@ figure {
     color: #fff;
 }
 
+.date {
+    color: #6e7d9e;
+    font-size: large;
+}
+
 nav {
     background-color: #1E3C78;
     color: #fff;
@@ -59,6 +64,7 @@ section a {
 	font-weight: bold;
 	font-size: large;
 }
+
 
 a {
     color: #6e7d9e;
