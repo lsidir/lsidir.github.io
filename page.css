@@ -20,7 +20,8 @@ h1, h2 {
 header {
     /*font-size: x-large;
     font-weight: bolder;*/
-    background-color: #1E3C78; /* blue       */
+    /*background-color: #1E3C78;*/ /* blue       */
+    background-color: #1F407A; /* blue       */
     color: #fff;
     text-align: center;
     margin: 0px 0px;
@@ -51,7 +52,7 @@ figure {
 }
 
 nav {
-    background-color: #1E3C78;
+    background-color: #1F407A;
     color: #fff;
     font-size: x-large;
     font-weight: bolder;
