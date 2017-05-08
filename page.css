@@ -51,6 +51,13 @@ figure {
     font-size: large;
 }
 
+.info {
+    color: #6e7d9e;
+    font-size: large;
+    font-weight: bold;
+}
+
+
 nav {
     background-color: #1F407A;
     color: #fff;
