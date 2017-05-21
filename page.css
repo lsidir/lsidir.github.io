@@ -57,6 +57,26 @@ figure {
     font-weight: bold;
 }
 
+.location {
+    font-size: large;
+}
+
+.location::before {
+   font-size: large;
+   color: #6e7d9e;
+   content: "@ ";
+}
+
+.title {
+    font-size: x-large;
+    color: #6e7d9e;
+    font-style: italic;
+}
+
+details > summary {
+    color: #6e7d9e;
+    font-weight: bold;
+}
 
 nav {
     background-color: #1F407A;
